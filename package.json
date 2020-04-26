@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-splitio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "keywords": [
     "gatsby",
