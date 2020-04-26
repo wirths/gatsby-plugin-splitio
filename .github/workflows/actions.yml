@@ -12,8 +12,8 @@ jobs:
         with:
           node-version: 12
       - run: npm install
-      - run: npm run pretest
-      - run: npm run posttest
+      - run: npm run format
+      - run: npm run test
       - run: npm run release
         env:
           GH_TOKEN: ${{secrets.GH_TOKEN}}
