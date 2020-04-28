@@ -1,0 +1,42 @@
+# Setup gatsby-plugin-splitio with TestToggle Example
+
+The plugin adds feature toggle functionality 
+by [Split.io](https://www.split.io)
+
+---
+
+Install necessary NPM packages
+
+<NPMPackage name="gatsby-plugin-splitio" />
+
+---
+
+Adds the plugin configuration of gatsby-plugin-splitio 
+to gatsby-config.js
+
+<GatsbyPlugin
+  name="gatsby-plugin-splitio"
+  options={{
+    authorizationKey: `YOUR_AUTHORIZATION_KEY`,
+    key: `YOUR_ENV_KEY`,
+  }} 
+/>
+
+---
+
+Now we add the TestToggle component, which could
+be used as a starting point
+
+<File 
+  path="src/components/TestToggle.js" 
+  content="https://raw.githubusercontent.com/wirths/gatsby-plugin-splitio/master/src/components/TestToggle.js"
+/>
+
+---
+
+Perfect, the plugin is ready.
+
+Note: You need to add the mentioned keys in your 
+gatsby-config.js file.
+
+---
